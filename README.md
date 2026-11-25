@@ -1,16 +1,25 @@
-# React + Vite
+# 🎬 Spinema - What to Watch Tonight?
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+**Spinema** is an aesthetic and interactive decision wheel designed for those who struggle to choose between movies, TV series, and YouTube videos. It offers a fun solution to the question "What should I watch?".
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+*   **🎡 Interactive Wheel:** Try your luck among content filtered by categories.
+*   **🎬 TMDB Integration:** Up-to-date posters, summaries, and ratings for movies and TV shows (The Movie Database API).
+*   **📺 YouTube Integration:** Add inspiring YouTube videos (e.g., cinema analysis) to the wheel.
+*   **🔐 Sign in with Google:** Secure, one-click login with Google OAuth 2.0.
+*   **🌙 Modern UI:** A fully responsive, dark theme designed with a "vibe coding" aesthetic that doesn't strain the eyes.
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+*   **Frontend:** React, Vite, Tailwind CSS
+*   **APIs:** TMDB API, YouTube Data API v3, Google OAuth 2.0
+*   **Authentication:** `@react-oauth/google`
 
-## Expanding the Oxlint configuration
+## 🚀 Local Setup
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+To run the project locally:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/kubrq7/spinema.git
